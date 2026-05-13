@@ -68,7 +68,9 @@ public class LoginView extends JPanel {
         faceBookButton = new JButton(makeTransparent(faceBookLogo));
 
         googleButton.setBorder(null);
+        googleButton.setOpaque(false);
         faceBookButton.setBorder(null);
+        faceBookButton.setOpaque(false);
 
         orLabel.setFont(new Font("Arial", Font.PLAIN, 16));
         userNameLabel.setFont(new Font("Arial", Font.PLAIN, 16));
@@ -78,8 +80,8 @@ public class LoginView extends JPanel {
 
     private void setUIComponenetsPosition(){
 
-        positionObjects(userNameField, 50, 220, 300, 30);
-        positionObjects(userNameLabel, 50, 250, 300, 30);
+        positionObjects(userNameLabel, 50, 220, 300, 30);
+        positionObjects(userNameField, 50, 250, 300, 30);
         positionObjects(passwordLabel, 50, 290, 300, 30);
         positionObjects(passwordField, 50, 320, 300, 30);
 
@@ -121,8 +123,8 @@ public class LoginView extends JPanel {
                 panelWidth = getWidth();
                 panelHeight = getHeight();
 
-                positionObjects(userNameField, 50, 220, 300, 30);
-                positionObjects(userNameLabel, 50, 250, 300, 30);
+                positionObjects(userNameLabel, 50, 220, 300, 30);
+                positionObjects(userNameField, 50, 250, 300, 30);
                 positionObjects(passwordLabel, 50, 290, 300, 30);
                 positionObjects(passwordField, 50, 320, 300, 30);
 

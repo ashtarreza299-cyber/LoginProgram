@@ -1,0 +1,29 @@
+# Build output
+/out/
+/target/
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Compiled class files
+*.class
+
+# JAR/WAR/EAR files
+*.jar
+*.war
+*.ear
+
+# Temporary files
+*.tmp
+
+# IntelliJ IDEA project files
+.idea/
+*.iml
+
+# --- Keep src and photos ---
+!src/
+!photos/
